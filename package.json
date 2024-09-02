@@ -1,6 +1,6 @@
 {
-  "name": "homebridge-modbus",
-  "version": "1.0.2",
+  "name": "homebridge-modbus-zn",
+  "version": "1.0.0",
   "description": "HomeBridge Plugin for ModbusTCP",
   "keywords": [
     "homebridge-plugin",
@@ -11,17 +11,13 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sclavel/homebridge-modbus.git"
-  },
-  "author": {
-    "name": "Stephane Clavel",
-    "email": "stephane.clavel@gmail.com"
+    "url": "git://github.com/thijszoon/homebridge-modbus-zn.git"
   },
   "dependencies": {
-    "jsmodbus": ">=3.0.0"
+    "jsmodbus": "4.0.6"
   },
   "engines": {
-    "node": ">=12.0.0",
-    "homebridge": ">=0.4.0"
+    "node": ">=14.0.0",
+    "homebridge": ">=1.4.0"
   }
 }
